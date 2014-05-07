@@ -1,0 +1,1 @@
+./CurlCommandTest.sh > CurlCommandTest.log

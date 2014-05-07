@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1399426194484
+Build-Jdk: 1.6.0_30
+Built-By: root
+Bundle-Activator: org.wiperdog.demo.bundle.test.pax.exam.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: Demo bundle test pax exam
+Bundle-SymbolicName: org.wiperdog.demo.bundle.test.pax.exam
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wiperdog.demo.bundle.test.pax.exam;uses:="org.osgi.f
+ ramework";version="0.0.1.SNAPSHOT",org.wiperdog.demo.bundle.test.pax.ex
+ am.service;version="0.0.1.SNAPSHOT",org.wiperdog.demo.bundle.test.pax.e
+ xam.service.impl;uses:="org.wiperdog.demo.bundle.test.pax.exam.service"
+ ;version="0.0.1.SNAPSHOT"
+Import-Package: org.osgi.framework;version="[1.5,2)"
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,3 @@
+org/wiperdog/demo/bundle/test/pax/exam/service/Service.class
+org/wiperdog/demo/bundle/test/pax/exam/Activator.class
+org/wiperdog/demo/bundle/test/pax/exam/service/impl/ServiceImpl.class
