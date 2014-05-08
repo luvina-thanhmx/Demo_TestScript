@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Login Test Geb</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			var message = "test"
+			function check(form){
+					if(form.username.value == "thanhmx" && form.password.value == "insight") {
+							message = "Login success!"
+							alert("Login success!")
+					} else {
+							message = "Login failed!"
+							alert("Login failed!")
+					}
+			}
+		</script>
+	</head>
+
+	<body>
+		<h1 class="page-header">Login</h1>
+		<ul class="errors">
+		</ul>
+		<form id="login-form">
+			<label for="username-field">Username</label>
+				<input type="text" name="username" id="username-field" />
+			<br />
+			<label for="password-field">Password</label>
+				<input type="password" name="password" id="password-field" />
+			<br />
+			<input type="submit" name="showAlert" onclick="check(this.form)" value="Submit" />
+		</form>
+	</body>
+</html>
